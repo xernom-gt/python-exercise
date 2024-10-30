@@ -7,11 +7,11 @@ def data():
     tinggi = int(input("masukan tingginya :"))
 
     if jari % 2 :
-        jumlah = phi2 * jari ** 2
-        print (f"volume tabung adalah {jumlah}cm3")
+        jumlah = lambda: phi2 * jari ** 2
+        print (f"volume tabung adalah {jumlah()}cm3")
     else :
-        jumlah = phi * jari ** 2 
-        print (f"volume tabung adalah {jumlah}cm3")
+        jumlah = lambda :  phi * jari ** 2 
+        print (f"volume tabung adalah {jumlah()}cm3")
 data()
 data()
 data()
