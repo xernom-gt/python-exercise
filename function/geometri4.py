@@ -1,5 +1,5 @@
 def data():
-    
+    print("volume limas segitiga")
     la = int(input("masukan nilai alasnya :"))
     lt = int(input("masukan nilai tingginya :"))
     volume = lambda : 1/3 *la *lt
