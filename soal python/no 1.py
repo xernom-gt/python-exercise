@@ -1,0 +1,5 @@
+print ('* '*30)
+print ('\t\t PROGRAM PYTHON')
+print ('\t\t OLEH: NUR CAHYA GUNAWAN')
+print ('\t\t ELAS: X PPLG 1')
+print ('* '*30)
